@@ -1,0 +1,20 @@
+.red {
+    color: rgb(27, 16, 128);
+    font-size: 20px;
+    border: green 1px solid;
+    margin-left: 10px;
+    margin-right: 40px;
+    padding: 22px;
+}
+
+.big {
+    font-size: 10px;
+}
+
+img {
+    width: 50px;
+}
+
+input {
+    padding: 24px;
+}
