@@ -1,0 +1,9 @@
+.default-input {
+    border: green 5px solid;
+}
+
+.error-input {
+    border-color: red;
+    color: red;
+    padding: 20px;
+}
