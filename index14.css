@@ -1,0 +1,24 @@
+ .send-button {
+     font-size: 44px;
+     color:blue;
+     background-color: rgb(58, 78, 65);
+     padding: 20px;
+     border-radius: 33%;
+     border: 5px rgb(38, 33, 107) solid;
+     margin: 60px 0px 70px 200px;
+ }
+
+ body {
+     background-color: blanchedalmond;
+ }
+
+
+ .error-button {
+    font-size: 55px;
+    color:rgb(255, 0, 0);
+    background-color: rgb(160, 20, 20);
+    padding: 50px;
+    border-radius: 33%;
+    border: 5px rgb(38, 33, 107) solid;
+    margin: 60px 0px 70px 200px;  
+ }
