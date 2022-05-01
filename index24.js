@@ -8,8 +8,13 @@ var slider1 = {
     slideImage: document.getElementById("slide-img"),
 
     start: function () {
+        var that = this;
         //subscribe events
-        this.showPrevBtn.addEventListener("click", this.onShowPrevBtnClick);
+        this.showPrevBtn.addEventListener("click", function(e) {
+          windows.alert("hey");
+          slider1.onShowPrevBtnClick(e);
+            //this.onShowPrevBtnClick   
+        });
         this.showNextBtn.addEventListener("click", this.onShowNextBtnClick);
 
                 // create images array
