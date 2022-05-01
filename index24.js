@@ -12,10 +12,13 @@ var slider1 = {
         //subscribe events
         this.showPrevBtn.addEventListener("click", function(e) {
           windows.alert("hey");
-          slider1.onShowPrevBtnClick(e);
+          that.onShowPrevBtnClick(e);
             //this.onShowPrevBtnClick   
         });
-        this.showNextBtn.addEventListener("click", this.onShowNextBtnClick);
+        this.showNextBtn.addEventListener("click", "click", function(e) {
+            windows.alert("hey");
+            that.onShowNextBtnClick(e);
+        });
 
                 // create images array
         this.imagesUrls.push("https://undeadwalking.com/files/2016/04/FTWD_307_RF_0315_1015-RT.jpg");
@@ -25,7 +28,7 @@ var slider1 = {
         
         this.slideImage.src = this.imagesUrls[this.currentImageIndex];
         this.showPrevBtn.disabled = true;
-    },
+            },
 
     //functions definitions
     onShowPrevBtnClick: function (e) {
@@ -47,4 +50,5 @@ var slider1 = {
             this.showNextBtn.disabled = true;
         }
       }
+
 };
