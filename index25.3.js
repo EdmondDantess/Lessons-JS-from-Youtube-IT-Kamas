@@ -3,9 +3,8 @@ var sliderFactory = {
         var newSlider = {
             imagesUrls: [],
             currentImageIndex: 0,
-        
-            showNextBtn: null,
             showPrevBtn: null,
+            showNextBtn: null,
             slideImage: null,
         
             start: function (elId) {
@@ -25,6 +24,7 @@ var sliderFactory = {
                 this.showNextBtn.addEventListener("click", function (e) {
                     that.onShowNextBtnClick(e);
                 });
+                
                 this.imagesUrls.push("https://undeadwalking.com/files/2016/04/FTWD_307_RF_0315_1015-RT.jpg");
                 this.imagesUrls.push("https://miro.medium.com/max/1200/1*1Dpg2prX5bGIA6ONeXDdlA.jpeg");
                 this.imagesUrls.push("https://www.tvinsider.com/wp-content/uploads/2020/07/fear-the-walking-dead-amc.jpg");
